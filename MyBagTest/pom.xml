@@ -53,9 +53,6 @@
                     <includes>
                         <include>**/*.java</include>
                     </includes>
-                    <excludes>
-                        <exclude>**/testEditPostUsingPageObjects.java</exclude>
-                    </excludes>
                 </configuration>
             </plugin>
         </plugins>
