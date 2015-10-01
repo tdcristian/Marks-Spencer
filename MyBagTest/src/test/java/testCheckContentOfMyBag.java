@@ -25,6 +25,7 @@ public class testCheckContentOfMyBag {
     @Before
     public void setUp(){
         driver = new FirefoxDriver();
+        driver.get("http://www.marksandspencer.com/");
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
